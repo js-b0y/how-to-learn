@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -20,6 +20,13 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+}
+
+.logo {
+  height: 32px;
+  width: 228px;
+  left: 64px;
+  top: 30px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
