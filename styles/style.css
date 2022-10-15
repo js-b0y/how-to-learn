@@ -19,12 +19,12 @@
 .logo {
   height: 32px;
   width: 228px;
-  top: 30px;
 }
 
 .logo_place_header {
   position: absolute;
   left: 64px;
+  top: 30px;
 }
 
 .header__title {
@@ -32,7 +32,6 @@
   font-weight: 600;
   line-height: 96px;
   max-width: 730px;
-  height: 64px;
   margin: 0;
   padding: 0;
   padding-left: 64px;
