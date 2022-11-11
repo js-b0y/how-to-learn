@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
@@ -27,7 +27,7 @@
             src="./images/header-image.png"
             alt="Огорченного мальчика встречает мать, брат и собака."
           />
-          <div class="header__square-pic rotation"></div>
+          <div class="header__square-pic"></div>
         </header>
 
         <section class="description">
@@ -345,36 +345,40 @@
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
-          <div class="resourses__logo-zone">
-            <a class="resourses__link" href="#">
-              <img
-                class="resourses__logo"
-                src="./images/logo/resources-arzamas.svg"
-                alt="изображение логотипа, надпись: Арзамас"
-              />
-            </a>
-            <a class="resourses__link" href="#">
-              <img
-                class="resourses__logo"
-                src="./images/logo/resources-n1.svg"
-                alt="изображение логотипа, надпись: Н + 1"
-              />
-            </a>
-            <a class="resourses__link" href="#">
-              <img
-                class="resourses__logo"
-                src="./images/logo/resources-strelka.svg"
-                alt="изображение логотипа, надпись: Стрелка"
-              />
-            </a>
-            <a class="resourses__link" href="#">
-              <img
-                class="resourses__logo"
-                src="./images/logo/resources-polka.svg"
-                alt="изображение логотипа, надпись: Полка"
-              />
-            </a>
-          </div>
+          <ul class="resourses__logo-zone">
+            <li class="resourses__logo">
+              <a class="resourses__link" href="#">
+                <img
+                  src="./images/logo/resources-arzamas.svg"
+                  alt="изображение логотипа, надпись: Арзамас"
+                />
+              </a>
+            </li>
+            <li class="resourses__logo">
+              <a class="resourses__link" href="#">
+                <img
+                  src="./images/logo/resources-n1.svg"
+                  alt="изображение логотипа, надпись: Н + 1"
+                />
+              </a>
+            </li>
+            <li class="resourses__logo">
+              <a class="resourses__link" href="#">
+                <img
+                  src="./images/logo/resources-strelka.svg"
+                  alt="изображение логотипа, надпись: Стрелка"
+                />
+              </a>
+            </li>
+            <li class="resourses__logo">
+              <a class="resourses__link" href="#">
+                <img
+                  src="./images/logo/resources-polka.svg"
+                  alt="изображение логотипа, надпись: Полка"
+                />
+              </a>
+            </li>
+          </ul>
         </section>
       </main>
 
